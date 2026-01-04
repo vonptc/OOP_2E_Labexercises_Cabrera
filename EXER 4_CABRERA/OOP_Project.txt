@@ -1,0 +1,7 @@
+ public class EnergySource { private String name; private double capacityKwh; private
+ String location; public EnergySource(String name, double capacityKwh, String
+ location) { this.name = name; this.capacityKwh = capacityKwh; this.location =
+ location; } public double generateEnergy() { System.out.println("Generic energy
+ source does not generate specific energy."); return 0; } public String getName() {
+ return name; } public double getCapacityKwh() { return capacityKwh; } public String
+ getLocation() { return location; } }
